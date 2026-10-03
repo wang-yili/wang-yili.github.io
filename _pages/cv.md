@@ -9,56 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
+<p>
+  <a href="{{ base_path }}/files/Yili_Wang_CV.pdf">Download full CV (PDF)</a>
+</p>
+
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Doctor rerum naturalium (Dr. rer. nat.), Faculty of Physics, Ludwig-Maximilians-Universität München, 2023
+* MSc. in Quantum Fields and Fundamental Forces, Imperial College London, 2017
+* B.Eng. in Applied Physics, Shanghai University, 2016
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **2025–present** — **Asia Pacific Center for Theoretical Physics (APCTP)** — YST Researcher
+* **2023–2025** — **Hanyang University** — Postdoctoral Researcher
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
