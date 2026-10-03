@@ -7,11 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  <p>
-    {{ post.citation }}
-  </p>
-{% endfor %}
+<ol>
+  {% assign publications = site.publications | sort: "date" | reverse %}
+  {% for post in publications %}
+    <li>
+      {{ post.citation }}
+    </li>
+  {% endfor %}
+</ol>
 
 <h2>Dissertation</h2>
 
